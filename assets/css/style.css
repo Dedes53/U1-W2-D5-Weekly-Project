@@ -74,6 +74,9 @@ main {
   margin-top: 100px;
   padding: 50px;
 }
+.perfectGift p {
+  margin: 15px;
+}
 .giftImg {
   margin-top: 50px;
 }
@@ -113,6 +116,9 @@ footer {
   text-align: center;
 }
 footer p {
-  background-color: ;
+  padding: 20px;
   text-decoration: underline;
+}
+footer div {
+  padding: 50px;
 }
