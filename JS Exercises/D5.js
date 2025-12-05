@@ -187,6 +187,8 @@ for (let i = 0; i < charactersArray.length; i++) {
     case "z":
       numbersArray.push(21);
       break;
+    default:
+      numbersArray.push("Non valido");
   }
 }
 
