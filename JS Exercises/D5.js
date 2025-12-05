@@ -108,9 +108,86 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
+let i = 0;
+while (i < numericArray.length && numericArray[i] !== 32) {
+  console.log(numericArray[i]);
+  i++;
+}
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+let numbersArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      numbersArray.push(1);
+      break;
+    case "b":
+      numbersArray.push(2);
+      break;
+    case "c":
+      numbersArray.push(3);
+      break;
+    case "d":
+      numbersArray.push(4);
+      break;
+    case "e":
+      numbersArray.push(5);
+      break;
+    case "f":
+      numbersArray.push(6);
+      break;
+    case "g":
+      numbersArray.push(7);
+      break;
+    case "h":
+      numbersArray.push(8);
+      break;
+    case "i":
+      numbersArray.push(9);
+      break;
+    case "l":
+      numbersArray.push(10);
+      break;
+    case "m":
+      numbersArray.push(11);
+      break;
+    case "n":
+      numbersArray.push(12);
+      break;
+    case "o":
+      numbersArray.push(13);
+      break;
+    case "p":
+      numbersArray.push(14);
+      break;
+    case "q":
+      numbersArray.push(15);
+      break;
+    case "r":
+      numbersArray.push(16);
+      break;
+    case "s":
+      numbersArray.push(17);
+      break;
+    case "t":
+      numbersArray.push(18);
+      break;
+    case "u":
+      numbersArray.push(19);
+      break;
+    case "v":
+      numbersArray.push(20);
+      break;
+    case "z":
+      numbersArray.push(21);
+      break;
+  }
+}
+
+console.log(numbersArray);
